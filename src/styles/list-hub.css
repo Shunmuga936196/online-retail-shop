@@ -1,0 +1,140 @@
+.product-list-header{
+    background-color: rgb(32, 186, 197);
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.product-list-container{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+.product-list-outer-container{
+    height: calc(100% - 67px);
+    overflow: auto;
+}
+.visible-footer{
+    height: calc(100% - 190px);
+}
+.product-list-card{
+    background-color: #fafafa;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 15px;
+    padding: 15px;
+    min-height: 60px;
+}
+.added-cart{
+    background-color: #dededeab;
+}
+.prod-image{
+    width: 150px;
+}
+.prod-details{
+    width: calc(100% - 290px);
+}
+.prod-details-mob{
+    width: calc(100% - 70px);
+}
+.add-to-cart{
+    width: 100px;
+}
+.qty-counter{
+    text-align: center;
+}
+.qty-counter-count{
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.product-list-footer{
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+    background-color: #61dafb29;
+}
+
+.default-btn{
+    background-color: #02b0f2;
+    color: #ffffff;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 135px;
+}
+
+.count-change-btn{
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.checkout-btn-count{
+    cursor: pointer;
+    background-color: #00688f;
+    color: #ffffff;
+    border: 0;
+    padding: 13px;
+    border-radius: 5px 0 0 5px;
+    font-weight: 700;
+    line-height: 23px;
+    display: inline-block;
+}
+
+.checkout-btn{
+    cursor: pointer;
+    outline: 0;
+    background-color: #02b0f2;
+    color: #ffffff;
+    border: 0;
+    padding: 13px;
+    border-radius: 0 5px 5px 0;
+    font-weight: 600;
+    font-size: 19px;
+    display: inline-block;
+}
+
+.checkout-btn-container{
+    border-radius: 5px;
+}
+
+.added-to-cart{
+    pointer-events: none;
+    color: #009341;
+    font-weight: 600;
+}
+
+.align-center{
+    text-align: center;
+}
+.selected{
+    background-color: #d7d7d7;
+}
+
+.header-container{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.page-header{
+    display: inline-block;
+}
+
+.product-filter-container{
+    float: right;
+}
+
+.product-filter{
+    padding: 10px;
+    border: 0;
+    background-color: inherit;
+    outline: 0;
+}
+.mob-btn{
+    width: 70px;
+}
